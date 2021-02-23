@@ -9,9 +9,11 @@ var WorkoutQuestions = new Schema({
     exercises: [ {
         name: {
             type: String,
+            trim: true,
         },
         type: {
             type: String,
+            trim: true,
         },
         weight: {
             type: Number,
@@ -31,5 +33,7 @@ var WorkoutQuestions = new Schema({
         }
     ]
 });
+const User = mongoose.model("workouts", WorkoutQuestions);
+
 
 module.exports = Workouts;
