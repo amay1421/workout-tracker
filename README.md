@@ -4,6 +4,6 @@ This app is a workout tracker that allows users to log daily workouts. The user 
 
 <img src="./public/images/Workout-Tracker.png">
 
-<strong>Deployed Link:</strong>
+<strong>Deployed Link:</strong>https://rocky-bastion-51034.herokuapp.com/
 <br>
 <strong>Repository Link:</strong> https://github.com/amay1421/workout-tracker
